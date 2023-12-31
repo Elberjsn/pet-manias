@@ -1,0 +1,202 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*,body{
+    margin: 0 auto;
+    background: silver;
+    height:100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 16pt;
+    padding: 0;
+    color:black
+}
+.group-input{
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    border: 1px solid;
+    height: 25px;
+}
+header{
+    position: relative;
+    height: 100px;
+    padding: 5px;
+}
+header img{
+    margin-left: 15px;
+    max-height: 95px;
+}
+header .group-input{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+    padding: auto;
+}
+.menu-nav{
+    height: 50px;
+    width: 100%;
+}
+.menu{
+    list-style:none;
+    width: 100%;
+    text-align: center;
+}
+.menu li{
+    position:relative;
+    border-left:5px solid black;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    line-height: 15pt;
+    height: 20px;
+    margin: 0 30px;
+    padding: 15px 30px;
+}
+.menu li ul{
+    position:absolute;
+    top:35px;
+    left:-15px;
+    display:none;
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+   
+}
+
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+    z-index: 10;
+    
+}
+.menu li ul li{
+    display:block;
+    margin: 0;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-left: -15px;
+    background: #e3c896;
+
+}
+.menu li ul li:hover{
+    margin-left: -25px;
+    box-shadow: 0px 15px 15px black;
+    transition: all 0.3s ease-in-out;
+    z-index: 20;
+    background: #f8ffb1;;
+}
+
+#container{
+    margin: 5px 5px;
+    display: flex;
+    height: auto;
+}
+
+.sections{
+    margin-top: 5px;
+    background: #d5a284;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.sections-box{
+    width: 30%;
+    height: 400px;
+    background: white;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    text-align: center;
+}
+.header-sections{
+    background: #e3c896;
+    height: 50px;
+    font-size: x-large;
+    text-align: center;
+    line-height: 2em;
+    margin-bottom: 5px;
+}
+.sections-box img{
+    width: 60%;
+    height: 50%;
+    border-radius: 5px;
+}
+.box-sections{
+    text-align: justify;
+    padding: 0 5px;
+    height: 30%;
+    background: #fff;
+}
+.box-sections p{
+    background: white;
+    overflow: hidden;
+    white-space: wrap;
+    width: 300px;
+}
+aside{
+    margin: 5px;
+    width: 18%;
+    height: auto;
+    flex: 1;
+    padding: 5px ;
+    border: 1px solid;
+    border-radius: 10px;
+    background: #d5a284;
+}
+.lateral > :first-of-type, li>:first-of-type{
+    background: #d5a284;
+}
+.title-menu{
+    height: 150px;
+    list-style: none;
+    margin-bottom: 20px;
+    background: #d5a284;
+}
+.title-menu strong{
+    margin-left: -10px;
+}
+.title-menu ul{
+    border-top: 1px solid black;
+}
+
+.title-menu li{
+    height: 20px;
+    margin: 5px 0px;
+    border: 2px solid black;
+    list-style: none;
+    padding: 2px;
+    border-radius: 5px;
+    background: #e3c896;
+}
+.title-menu li:hover{
+    margin-left: -15px;
+    box-shadow: 0 10px 10px black ;
+    background: #f8ffb1;
+}
+
+
+
+footer{
+    background: #d5a284;
+    height: 50px ;
+    position: relative;
+    bottom: 1px;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+}

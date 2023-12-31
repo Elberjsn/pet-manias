@@ -1,0 +1,24 @@
+.sections{
+    width: 95%;
+}
+.sections-box{
+    width: 45%;
+    height: auto;
+}
+.sections-box img{
+    width: 350px;
+    height: 350px;
+}
+.sections-box p{
+    width: 90%;
+    height: auto;
+    text-align: justify;
+    color: black;
+    margin: 2px;
+}
+.sections-box h2{
+    border: 1px solid;
+    text-align: center;
+    background: white;
+    height: auto;
+}
